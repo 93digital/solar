@@ -31,6 +31,13 @@ When setting up the plugin, a number of values need to be added to a few files i
 | #PLUGIN_CLASS#       | e.g. Nine3_Solar |
 | #PLUGIN_TAGS#        | e.g. solar, sun, star, light |
 
+Files that require the above replacements are:
+
+- `readme.txt`
+- `index.php` (this also needs to be renamed to match the plugin name/slug)
+- `helpers.php`
+- `class/class-index.php` (this also needs to be renamed to match the plugin name/slug)
+
 > 93git will handle this for you if Solar is used via the 93git tool.
 
 ## Requirements
