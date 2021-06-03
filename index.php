@@ -32,7 +32,7 @@ define( '#PLUGIN_CONSTANT#_URI', plugins_url( plugin_basename( __DIR__ ) ) );
 /**
  * INCLUDE ANY UTILITY OR HELPER FILES HERE.
  */
-include_once #PLUGIN_CONSTANT#_PATH' . '/helpers.php';
+include_once #PLUGIN_CONSTANT#_PATH . '/helpers.php';
 
 /**
  * 'spl_autoload_register' callback function.
@@ -56,4 +56,4 @@ spl_autoload_register( __NAMESPACE__ . '\autoloader' );
 /**
  * Init class.
  */
-$#PLUGIN_UNERSCORED# = new #PLUGIN_CLASS#();
+$#PLUGIN_UNDERSCORED# = new #PLUGIN_CLASS#();

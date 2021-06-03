@@ -2,7 +2,7 @@
 /**
  * Plugin Helper functions.
  *
- * @package nine3migrate
+ * @package #PLUGIN_NAMESPACE#
  */
 
 namespace #PLUGIN_NAMESPACE#;
